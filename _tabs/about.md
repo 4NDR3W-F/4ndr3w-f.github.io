@@ -4,7 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About Quantum Decoder:
 
 What happens when the industry wants to popularize a highly technical topic? People can control real quantum hardware from the comfort of their home... on open plans. That's what happens.
 
@@ -23,7 +22,7 @@ That is what I want Quantum Decoder to be:
 * Companionship for everyone interested in the field 
 
 If these resonate, feel free to reach out. I would love to build a community around Quantum Decoder. From talking about the contents you want to see to making this experience as interactive as possible. 
-Ready to decode Quantum?
+Ready to decode Quantum?\\
 -A
 
 
