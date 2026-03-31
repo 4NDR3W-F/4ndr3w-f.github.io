@@ -22,7 +22,6 @@ That is what I want Quantum Decoder to be:
 * Companionship for everyone interested in the field 
 
 If these resonate, feel free to reach out. I would love to build a community around Quantum Decoder. From talking about the contents you want to see to making this experience as interactive as possible. 
-Ready to decode Quantum?\\
--A
+Ready to decode Quantum?
 
 
