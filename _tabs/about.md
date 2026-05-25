@@ -4,5 +4,22 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+What happens when the industry wants to popularize a highly technical topic? People get access to real quantum hardware from the comfort of their home... on open plans.
+
+Exploring quantum computing concepts has become so accessible and interactive that it feels like a hobby. You can get involved in the theoretical research of the field without needing to analyze formal paper daily. You can test your ideas on the real thing.
+
+And for some reason, nobody seems to talk about that. Most of the content on quantum computers is non-technical (hypey, pop-science simplifications, corporate AI slop, etc.), and universities seem to prefer a more traditional approach of textbook theory and exercises. 
+
+I don't blame either: popularizing this field can lead to 'influencers' making content described above (and, honestly, if it gets more eyes on the field, it's a win), and formal education at universities is required if someone wants to go deeper. And depth is surely crucial too: If nothing else, the quantum technological breakthrough as a whole was instigated by trying to settle a philosophical debate. I aim to do something different: I want to explore these concepts, test my ideas, see what I will find, and share it here.
+
+Of course, I don't want to replace anyone's textbook. I will talk much simpler than papers or textbooks, without sacrificing accuracy, though. I am not a fan of over-simplification. I don't believe real thinkers in the field need more similes (If I read one more time that a qubit is a bit that can take 0 and 1 simultaneously, I swear-).
+
+That is what I want Quantum Decoder to be:
+* Exploration of intriguing ideas
+* Intuitive, grounded and accurate explanations
+* Companionship for everyone interested in the field 
+* 100% human-written content
+* Actionable quantum research thinking
+
+If these resonate, feel free to reach out. I would love to build a community around Quantum Decoder. From talking about the contents you want to see to making this experience as interactive as possible. 
+Ready to decode Quantum?

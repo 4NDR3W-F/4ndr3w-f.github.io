@@ -1,8 +1,8 @@
 ---
 title: The "Philosophical debate to quantum technological revolution" pipeline
-date: 2026-05-22 09:00:00 +0300
+date: 2026-05-25 09:00:00 +0300
 categories: [quantum_information,quantum_computation]
-tags: [bell's_theorem,entanglement,epr,applications_of_qc]
+tags: [bell's theorem,entanglement,epr,applications of qc]
 description: Short historical overview of the events behind Quantum Technology
 ---
 
@@ -10,7 +10,7 @@ description: Short historical overview of the events behind Quantum Technology
 
 ## Introduction
 
-What is real? And why does Quantum Mechanics -one of the most accurate physical theories - sometimes only offer probabilistic results at best? Questions like these brought forth the quantum technological breakthrough. It is a great example of how asking the right questions and addressing the elephant in the room led to real progress. From the very abstract to the very real.
+What is real? And why does Quantum Mechanics - one of the most accurate physical theories - sometimes only offer probabilistic results at best? Questions like these brought forth the quantum technological breakthrough. It is a great example of how asking the right questions and addressing the elephant in the room led to real progress. From the very abstract to the very real.
 
 At the beginning of the previous century, it became clear that quantum mechanics could explain experimental data with remarkable accuracy. Great scientists of the period contemplated the meaning of this in relation to our understanding of the world. Figuring out what quantum theory _meant_ was more important than ever, because Quantum theory contrasted common logic and day-to-day experience like no other.
 
