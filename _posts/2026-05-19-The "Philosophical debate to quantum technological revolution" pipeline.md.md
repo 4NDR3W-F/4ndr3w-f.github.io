@@ -20,7 +20,7 @@ One of the firmest critics of Quantum theory was Einstein, whose theory of relat
 
 But what is considered "local" in physics? Simply put, local interactions happen from one point to the other, meaning that if two systems interact from a distance, the space between them is affected too. Conversely, a non-local interaction would be an event in point (A) affecting point (B), which can be as far as it may, without affecting the intermediate space.
 
-Quantum mechanics is imbued in non-local interactions, and for Einstein, that was its main weak point. In fact, he, along with Podolsky and Rosen, published the infamous EPR paper in 1935, which made the extreme non-locality of QM crystal clear. For them, that, along with a couple more arguments about the nature probabilities in QM, conflicted with their definition of reality itself... Indeed, that paper starts by defining what is to be considered real.
+Quantum mechanics is imbued in non-local interactions, and for Einstein, that was its main weak point. In fact, he, along with Podolsky and Rosen, published the infamous EPR paper in 1935, which made the extreme non-locality of QM crystal clear. For them, that, along with a couple more arguments about the nature of probabilities in QM, conflicted with their definition of reality itself... Indeed, that paper starts by defining what is to be considered real.
 
 Of course, the experimental data aligned with the QM results, so EPR did not argue that QM is wrong, but...incomplete. They believed that a wavefunction does not provide a full description of a system (which is what QM argues), but an alternative theory that does provide the full picture is possible. Their argument was later refined and passionately supported by Bohm, who proposed a hidden variable theory.
 
@@ -37,7 +37,7 @@ _On a side note, a lot more happened in between, as with any major advancement i
 The response to the issues raised by EPR came from John Bell in 1964, where he proved that local hidden variable theories cannot reproduce the results of quantum mechanics. That paper shaped the understanding of quantum mechanics for many reasons:
 
 - The proof of the main point is general: it applies to all hidden-variable theories that try to equip quantum mechanics with locality. It could be argued that Bell did not prove the misalignment of QM and hidden variable theories, but QM and locality itself. (which is a little ironic given that EPR's problem with QM is the lack of locality)
-- It allowed for an experimental verification of the very nature of probabilities of quantum mechanics (experimental data confirmed Bell's theorem and the relative work was awarded by the Physics Nobel prize of 2020 (RIP Bell, you would have loved your Nobel prize award...on a second thought, it makes sense since it is called the no-bel prize...okay I shut up))
+- It allowed for an experimental verification of the very nature of probabilities of quantum mechanics (experimental data confirmed Bell's theorem and the relative work was awarded by the Physics Nobel prize of 2022 (RIP Bell, you would have loved your Nobel prize award...on a second thought, it makes sense since it is called the no-bel prize...okay I shut up))
 - It shut down once and for all the argument that, since QM is non-local, it cannot be complete.
 - It put the notion of entanglement in the spotlight.
 
