@@ -205,7 +205,7 @@ $$
 
 which is known as Einstein's dilemma. It says, either give up locality or completeness of the QM formalism.
 
-Einstein stuck with locality to the point that he tried his own luck with coming up with a QM interpretation, even though it is said that he gave up the paper he was writing, probably because he found out his version allowed non-locality too, as I narrate [here](https://quantum-decoder.com/posts/The-Philosophical-debate-to-quantum-technological-revolution-pipeline.md/). Locality was so crucial to him that his main problem with the EPR paper was that it didn't point out how QM violated locality.
+Einstein stuck with locality to the point that he tried his own luck with coming up with a QM interpretation, even though it is said that he gave up the paper he was writing, probably because he found out his version allowed non-locality too, as I narrate [here](/posts/The-Philosophical-debate-to-quantum-technological-revolution-pipeline.md/). Locality was so crucial to him that his main problem with the EPR paper was that it didn't point out how QM violated locality.
 
 But what did the fiercest supporter and main figure of the Copenhagen interpretation, Niels Bohr himself, have to say about Einstein's arguments?
 
