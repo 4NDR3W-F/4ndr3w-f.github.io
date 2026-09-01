@@ -1,6 +1,6 @@
 ---
 title: Everything you need to know about the EPR paradox
-date: 2026-09-01 09:00:00 +0300
+date: 2026-09-02 09:00:00 +0300
 categories: [quantum_interpretations]
 tags: [entanglement,epr,copenhagen's_interpretation]
 description: A deep dive on the most influential paper for quantum interpretations
