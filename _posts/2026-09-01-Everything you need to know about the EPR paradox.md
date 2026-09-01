@@ -7,7 +7,7 @@ description: A deep dive on the most influential paper for quantum interpretatio
 
 image:
   path: /assets/img/einstein_bohr.jpg
-  alt: image alternative text
+  alt: Does God play dice?
 
 math: true
 ---
@@ -30,23 +30,23 @@ So a fierce response from grand physicists of the time, and Einstein especially,
 
 My objective is to present as fairly as possible the arguments raised by EPR, even though we know by now (thanks to Bell, but that is a story for another time) that the concerns of EPR regarding QM were false alarms. At first, I will present and analyze the arguments of Bohm, which are logically equivalent to the EPR arguments, except that Bohm's version is awfully simpler. Then, I will give an account of the original version of the argument, exactly as it is in the EPR paper, and lastly I will entertain Einstein's further arguments, since he himself was not very satisfied with the way the EPR paper turned out.
 
-(Comment) Disclaimer: In my effort to present the other side of the argument justly, I will need to play devil's advocate, so I need to state that I do not claim as my own anything in this section.
+(Disclaimer: In my effort to present the other side of the argument justly, I will need to play devil's advocate, so I need to state that I do not claim as my own anything in this section.)
 
 EPR tried to show that QM is incomplete. The first step is to define completeness:
 
-"Every element of physical reality must have a counterpart in the physical theory"
+> "Every element of physical reality must have a counterpart in the physical theory"
 
 In other words, the theory is complete if every element of physical reality has a counterpart in the physical theory. This criterion seems logical, since it doesn't concern itself with the experimental and verification processes of said theory, but only with the expressive power of its formalism. I.e., being able to describe all the elements of reality theoretically and make sure not to include elements of reality that don't exist. These are merely the two contrapositive forms of the criterion:
 
-If a theory doesn't have a counterpart for every element of reality, the theory is incomplete.
+>If a theory doesn't have a counterpart for every element of reality, the theory is incomplete.
 
 or
 
-If the theory has elements that don't have a counterpart in reality, the theory is incomplete.
+>If the theory has elements that don't have a counterpart in reality, the theory is incomplete.
 
 But the above criterion doesn't amount to much if we don't define what is considered as reality, at least as far as the QM incompleteness argument is concerned. Here is the Criterion of Reality, as it is found in the EPR paper:
 
-"If, without in any way disturbing the system, with certainty (probability = 1) the value of a physical quantity, then there exists an element of reality corresponding to that quantity."
+>"If, without in any way disturbing the system, with certainty (probability = 1) the value of a physical quantity, then there exists an element of reality corresponding to that quantity."
 
 This criterion gets especially interesting if we consider how one might get probability = 1 in the context of QM. QM supports that this may hold for a measurement only if the state at hand is an eigenstate of the measured observable. That means that we can claim elements of reality only for eigenstates. It is important to note, though, that even if the state at hand is not an eigenstate of the measured observable, the measurement itself will change the state into an eigenstate of the observable. This is because a measurement gives a certain result, and measuring again in succession must give the same result, so the state changes in such a way that after a measurement it will be in the eigenstate that gives that result. So, if a measurement indeed took place, the probability of getting the same result after the first measurement is 100%, meaning that we can claim there is an element of reality for the measured observable.
 
@@ -58,11 +58,11 @@ This is a very short description of the collapse of the wavefunction and the mea
 
 Introduce the singlet spin state. This state can be created by the splitting of a particle with total spin S=0 into two 1/2 particles, and more specifically, their antisymmetric combination. In Dirac notation:
 
-\ket{S}= \frac{1}{\sqrt{ 2 }}(\ket{\uparrow}\ket{\downarrow}-\ket{\downarrow} \ket{\uparrow} )
+$\ket{S}= \frac{1}{\sqrt{ 2 }}(\ket{\uparrow}\ket{\downarrow}-\ket{\downarrow} \ket{\uparrow} )$
 
 This means that the two 1/2 particles are in an entangled state. I won't go into detail here about what entanglement is, but only about how it manifests in this case. This state tells us that if the first particle is found in the spin-up state, then the second particle will be in the spin-down state, and vice versa. They can never be found in both spin-up or both spin-down. This is important because the total angular momentum is zero and it is conserved in this system, so it should remain zero even when each 1/2 particle is measured separately.
 
-This is described exactly by the math: Each of the two terms of the singlet state is a tensor product of eigenstates for the two observables (\sigma_{i,z}\ket{\uparrow}=\ket{\uparrow}), because if the state ended up being either one of the terms, we would know with certainty for both if they are up or down. But now we are in a superposition of eigenstates, and such a superposition cannot be written as a product state (A state that is a tensor product between all the possible eigenstates of the first part times all the possible eigenstates of the second part). That is why the state is an entangled one (and in fact, a state of max entanglement, but I digress)
+This is described exactly by the math: Each of the two terms of the singlet state is a tensor product of eigenstates for the two observables $(\sigma_{i,z}\ket{\uparrow}=\ket{\uparrow})$, because if the state ended up being either one of the terms, we would know with certainty for both if they are up or down. But now we are in a superposition of eigenstates, and such a superposition cannot be written as a product state (A state that is a tensor product between all the possible eigenstates of the first part times all the possible eigenstates of the second part). That is why the state is an entangled one (and in fact, a state of max entanglement, but I digress)
 
 Trying to add terms to the above state that it may be written in a tensor product of the two subsystems helps build intuition: why are they entangled? What would it take not to be entangled? Can the entangled or the non-entangled state be projected to classical systems?
 
@@ -80,7 +80,7 @@ Suppose Alice measures the direction along x. Instantly, we know that Bob's part
 
 Comments:
 
-1. Heisenberg's uncertainty principle states that we cannot know with certainty at the same time the values of two non-commuting operators. The most popular form of this principle concerns the position and momentum of a single particle, and it is formulated as: \Delta x\cdot \Delta p \geq \frac{\hbar}{2}. A similar inequality can be written for any two non-commuting operators, like the different orientations of spin. The inequality is connected to the result of the commutator - for example, for x and p:
+1. Heisenberg's uncertainty principle states that we cannot know with certainty at the same time the values of two non-commuting operators. The most popular form of this principle concerns the position and momentum of a single particle, and it is formulated as: $\Delta x\cdot \Delta p \geq \frac{\hbar}{2}$. A similar inequality can be written for any two non-commuting operators, like the different orientations of spin. The inequality is connected to the result of the commutator - for example, for x and p:
  ![Commutator+Uncertainty](/assets/img/img1.jpg){: w="700"}{: .normal }
 
 _Connection between commutator and Heisenberg's Uncertainty principle for x and p_
@@ -114,11 +114,15 @@ This part of the EPR argument (i.e. the assumption of locality) is eclipsed even
 
 If we can predict with certainty (probability = 1) the value of an observable at time t_{1}, then at all times t\geq t_{1} there is an element of reality that corresponds to this element of the theory.
 
-Now, if we do not enforce locality and make specific mentions of times, "saving" QM is straightforward: Let's say that Alice measures the spin s_{1} of the first particle at t_{1}. That means for times t_{2}> t_{1} we can predict with certainty that a measurement of the second particle, s_{2}, will be the opposite of the first. Also, it means that the wavefunction is now reduced to either one of the two parts it had before. Suppose the first measurement yields \ket{\uparrow} so the second would yield upon a measurement \ket{\downarrow}, thus the state is collapsed to:
+ ![Projection](/assets/img/projection.jpg){: w="700"}{: .normal }
 
-\ket{S'}= \ket{\uparrow}\ket{\downarrow}
+_Locality allows the projection of the element of reality of the 2nd spin for times before the measurement_
 
-Of course, this state is an eigenstate for both observables, so both observables are elements of reality for t_{2}>t_{1}.
+Now, if we do not enforce locality and make specific mentions of times, "saving" QM is straightforward: Let's say that Alice measures the spin $s_{1}$ of the first particle at $t_{1}$. That means for times $t_{2}> t_{1}$ we can predict with certainty that a measurement of the second particle, $s_{2}$, will be the opposite of the first. Also, it means that the wavefunction is now reduced to either one of the two parts it had before. Suppose the first measurement yields $\ket{\uparrow}$ so the second would yield upon a measurement $\ket{\downarrow}$, thus the state is collapsed to:
+
+$\ket{S'}= \ket{\uparrow}\ket{\downarrow}$
+
+Of course, this state is an eigenstate for both observables, so both observables are elements of reality for $t_{2}>t_{1}$.
 
 What EPR achieves by assuming locality is being able to project the element of reality of $s_{2}$ that exists after Alice's measurement to times $t_{3}< t_{1}$, where the system is described by an entangled state, which doesn't predict either particle's spin to be considered an element of reality.
 
@@ -126,13 +130,31 @@ What about the expansion of the argument? The one that violated Heisenberg's unc
 
 After the first measurement:
 
-\ket{S}= \frac{1}{\sqrt{ 2 }}(\ket{\uparrow}\ket{\downarrow}-\ket{\downarrow} \ket{\uparrow} ) \rightarrow \ket{S'}=\ket{\uparrow}_{x} \ket{\downarrow}_{x}
+$$\ket{S}= \frac{1}{\sqrt{ 2 }}(\ket{\uparrow}\ket{\downarrow}-\ket{\downarrow} \ket{\uparrow} ) \rightarrow \ket{S'}=\ket{\uparrow}_{x} \ket{\downarrow}_{x}$$
 
-Where the first ket of each ket tensor product represents the state on the left (first to be measured) wing and the second ket refers to the state of the right wing. So, measuring in the y direction on the right wing: \bra{\downarrow}_{x}\sigma_{y}\ket{\downarrow}_{x}. In the z basis, this is:
+Where the first ket of each ket tensor product represents the state of Alice's particle (first to be measured) and the second ket refers to the state of Bob's particle. So, measuring in the y direction on Bob's particle: $\bra{\downarrow}_{x}\sigma_{y}\ket{\downarrow}_{x}$. In the z basis, this is:
 
-\begin{bmatrix} 1 & -1 \end{bmatrix} \begin{bmatrix} 0&-i \ i&0 \end{bmatrix} \begin{bmatrix} 1 \ -1 \end{bmatrix} = \begin{bmatrix} 1 & -1 \end{bmatrix} \begin{bmatrix} i \ i \end{bmatrix} =0
+$$\begin{bmatrix}
+ 1 & -1
 
-which is a very intuitive result that tells us that the \sigma_{y} observable doesn't have a preference for the y-up or the y-down state when it is in the \ket{\downarrow}_{x} state; in fact, this expectation value is zero exactly because that state gives a 50% chance of giving either y-eigenstate, as promised.
+\end{bmatrix} 
+
+\begin{bmatrix}
+0&-i \\ i&0 
+\end{bmatrix}
+
+\begin{bmatrix}
+1 \\\ -1 
+\end{bmatrix}
+ =
+\begin{bmatrix}
+1 & -1 
+\end{bmatrix}
+\begin{bmatrix}
+i \\ i 
+\end{bmatrix} =0$$
+
+which is a very intuitive result that tells us that the $\sigma_{y}$ observable doesn't have a preference for the y-up or the y-down state when it is in the $\ket{\downarrow}_{x}$ state; in fact, this expectation value is zero exactly because that state gives a 50% chance of giving either y-eigenstate, as promised.
 
 So, you still cannot "break" the uncertainty principle if you can't measure simultaneously. That was true for a spatially localized quantum state, and it stays true even for spatially separated states. QM is saved...
 
@@ -140,17 +162,17 @@ So, you still cannot "break" the uncertainty principle if you can't measure simu
 
 An EPR analysis would not be complete without mentioning the original setup. EPR arguments didn't have to do with spins but with the position and momentum operators (x and p). This makes the argument a little more abstract, but the core ideas are intact.
 
-First, assume that two quantum systems (named I and II) interact (for times t=0 to t=T) in such a way that we cannot know the state of the individual systems after the interaction (which is to say they are entangled), even though we know the overall state through Schrödinger's equation. Also, no interaction between them is allowed for t>T.)
+First, assume that two quantum systems (named I and II) interact (for times t=0 to t=T) in such a way that we cannot know the state of the individual systems after the interaction (which is to say they are entangled), even though we know the overall state through Schrödinger's equation. Also, no interaction between them is allowed for $t>T$.
 
-Then, they consider an observable A pertaining system I with eigenvalues a_{1}, a_{2},\dots, a_{i} and respective eigenstates u_{1}(x_{1}), u_{2}(x_{1}),\dots,u_{i}(x_{1}), where x_{1} refers to all the variables used to describe the I system.
+Then, they consider an observable A pertaining system I with eigenvalues $a_{1}, a_{2},\dots, a_{i}$ and respective eigenstates $u_{1}(x_{1}), u_{2}(x_{1}),\dots,u_{i}(x_{1})$, where $x_{1}$ refers to all the variables used to describe the I system.
 
 A's eigenstates can be used as a basis-state set to analyze the wavefunction:
 
-\Psi(x_{1}, x_{2})=\sum_{n=1}^{\infty} \psi_{n}(x_{2})u_{n}(x_{1})
+$$\Psi(x_{1}, x_{2})=\sum_{n=1}^{\infty} \psi_{n}(x_{2})u_{n}(x_{1})$$
 
-Where the coefficients for each eigenfunction must be dependent on x_{2}, which refers to all the variables used to describe system II.
+Where the coefficients for each eigenfunction must be dependent on $x_{2}$, which refers to all the variables used to describe system II.
 
-Of course, this is also entangled (since it cannot be written as a product), and a measurement of A, yielding a_{i} on I, would collapse the wavefunction from the infinite terms to 1, the one corresponding to the measurement result: \psi_{i}(x_{2})u_{i}(x_{1}).
+Of course, this is also entangled (since it cannot be written as a product), and a measurement of A, yielding $a_{i}$ on I, would collapse the wavefunction from the infinite terms to 1, the one corresponding to the measurement result: $\psi_{i}(x_{2})u_{i}(x_{1})$.
 
 Then, it is stated that if one chooses a different observable to use as a basis state to analyze \psi and measure, one would end up in a different state after the measurement. It is also pointed out that the measurements all happen on system I, and it is system II that is left in different states. For that reason, they consider that the same reality (system II after the interaction with I) can be assigned two different wavefunctions.
 
@@ -171,14 +193,15 @@ As I mentioned previously, Einstein wasn't very happy with how the arguments in 
 What Einstein is talking about is ascribing independent real states to spatially separated objects. That is what the classical intuition wants us to assume. But something happens to A and B if they are governed by an entangled state according to QM, which makes them unable to be described separately, no matter how far apart they are. This highlights how entanglement is inherently non-local.
 
 Einstein understood that it came down to locality (in contrast to the EPR paper that doesn't mention locality once, even though they assume it), but could not accept that nature is non-local, especially since SR did not allow non-local phenomena.
-
+$$
 F \land L = I
-
+$$
 Meaning that QM's **formalism,** according to Bohr, along with **L**ocality, means that QM is incomplete.
-
+$$
 \lnot I = \lnot F \lor \lnot L \Rightarrow \lnot I \land L = \lnot F \lor \lnot L \land L \Rightarrow
 
 \lnot F = \lnot (I \lor \lnot L) \Rightarrow F= I \lor \lnot L \lnot I \land L = \lnot F \lor 1
+$$
 
 which is known as Einstein's dilemma. It says, either give up locality or completeness of the QM formalism.
 
@@ -236,8 +259,8 @@ But, apart from the formalism that highlights how they aren't independent, the t
 
 # Appendix C: Fun facts about the EPR paper
 
-- It was published in 1935! Almost a century ago! Isn't that insane?? If you truly die once someone says your name for the last time, Einstein is bound to live forever.
-- Everyone (probably) hates it. Even Einstein himself. Yes, it was written and published in such a haste that Einstein himself didn't even read it before publishing!! The person everyone thinks about when they think about this paper hated it. I haven't read a single analysis of that paper that endorsed the way it was written (and I dug a lot). And there are very good reasons for anyone to hate it, no matter which side of the argument you are standing on.
+- It was published in 1935! Almost a century ago! Isn't that insane? If you truly die once someone says your name for the last time, Einstein is bound to live forever.
+- It is widely hated. Even by Einstein himself. Yes, it was written and published in such a haste that Einstein himself didn't even read it before publishing!! The person everyone thinks about when they think about this paper hated it. I haven't read a single analysis of that paper that endorsed the way it was written (and I dug a lot). And there are very good reasons for anyone to hate it, no matter which side of the argument you are standing on.
 - Einstein said that the math smothered the argument.
 - Everyone studying it in retrospect, from philosophers to physicists, never mentions the original x-p entanglement, and everyone prefers Bohm's spin singlet version.
 - The arguments made don't specify the order of certain events or the notion of time in general, and after the presentation of the argument, including time, it is easy to point out a weak point of the argument.
