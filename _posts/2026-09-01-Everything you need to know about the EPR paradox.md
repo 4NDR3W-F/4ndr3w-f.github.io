@@ -120,7 +120,7 @@ Now, if we do not enforce locality and make specific mentions of times, "saving"
 
 Of course, this state is an eigenstate for both observables, so both observables are elements of reality for t_{2}>t_{1}.
 
-What EPR achieves by assuming locality is being able to project the element of reality of s_{2} that exists after Alice's measurement to times t_{3}<t_{1}, where the system is described by an entangled state, which doesn't predict either particle's spin to be considered an element of reality.
+What EPR achieves by assuming locality is being able to project the element of reality of $s_{2}$ that exists after Alice's measurement to times $t_{3}< t_{1}$, where the system is described by an entangled state, which doesn't predict either particle's spin to be considered an element of reality.
 
 What about the expansion of the argument? The one that violated Heisenberg's uncertainty principle? I got you. _When_ do you consider something an element of reality? Explicit mention of time breaks the argument once more: The moment the measurement on the first wing is made (suppose we measure their spin-up), we have the x-spin component as an element of reality for both particles. The state collapses to the one that gives spin-up in the x direction for the first wing and spin-down in the x direction for the second wing. At this point, the measurement on the second wing would be a measurement of the spin-down in the x direction measured in the y direction, which has a 50% probability of giving either up or down. Or in math:
 
