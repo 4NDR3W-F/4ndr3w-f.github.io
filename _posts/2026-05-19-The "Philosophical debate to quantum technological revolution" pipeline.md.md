@@ -1,6 +1,6 @@
 ---
 title: The "Philosophical debate to quantum technological revolution" pipeline
-date: 2026-05-25 09:00:00 +0300
+date: 2026-05-19 09:00:00 +0300
 categories: [quantum_interpretations]
 tags: [bell's theorem,entanglement,epr,applications of qc]
 description: Short historical overview of the events behind Quantum Technology
